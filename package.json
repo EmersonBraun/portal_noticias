@@ -1,0 +1,12 @@
+{
+  "name": "portal_noticias",
+  "version": "1.0.0",
+  "description": "Site de noticias",
+  "main": "index.js",
+  "author": "EmersonBraun",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1"
+  }
+}
