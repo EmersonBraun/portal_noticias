@@ -1,11 +1,4 @@
-var express = require('express');
-var app = express()
-
-app.set('view engine', 'ejs');
-
-app.get('/tecnologia', function(req, res){
-    res.render("secao/tecnologia");
-});
+var app = require('./config/server')
 
 app.listen(3000, function(){
     console.log('Servidor rodando');
